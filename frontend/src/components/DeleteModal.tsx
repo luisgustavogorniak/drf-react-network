@@ -15,14 +15,14 @@ const DeleteModal: React.FC<DeleteModalProps> = ({ onClose, onConfirm, isLoading
         <div className="delete-modal-actions">
           <button
             onClick={onClose}
-            className="delete-modal-button delete-cancel-button"
+            className="modal-button cancel-button"
             disabled={isLoading}
           >
             Cancel
           </button>
           <button
             onClick={onConfirm}
-            className="delete-modal-button delete-confirm-button"
+            className="modal-button delete-button"
             disabled={isLoading}
           >
             {isLoading ? 'Deleting...' : 'Delete'}
