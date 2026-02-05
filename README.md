@@ -5,8 +5,8 @@ Full stack project developed for an assessment, consisting of a CRUD posts appli
 ## Technologies
 
 ### Backend
-- Python 3.12
-- Django 6.0.2
+- Python 3.12+ (or Python 3.11+ for Django 6.x compatibility)
+- Django 5.2.11 (compatible with Python 3.11+)
 - Django Rest Framework 3.16.1
 - django-cors-headers 4.9.0
 - SQLite3
